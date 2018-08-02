@@ -9,6 +9,5 @@ def method()
 end
 
 def take_a_number(katz_deli,name)
-  puts katz_deli
-  
+  puts katz_deli.index(name)+1
 end
