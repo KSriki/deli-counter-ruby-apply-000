@@ -3,4 +3,6 @@ katz_deli = []
 
 def method()
   if katz_deli.empty?
+    puts "The line is currently empty."
+  else
     
