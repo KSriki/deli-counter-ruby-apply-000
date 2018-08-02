@@ -8,3 +8,7 @@ def method()
     katz_deli.each{|person| puts person}
 end
 
+def take_a_number(katz_deli,name)
+  
+  
+end
