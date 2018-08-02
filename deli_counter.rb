@@ -6,6 +6,7 @@ def line(katz_deli)
   else
     print "The line is currently: "
     katz_deli.each_with_index{|person, index| print "#{index+1}. " + person + " "}
+    puts ""
   end
 end
 
