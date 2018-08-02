@@ -6,6 +6,7 @@ def line()
     puts "The line is currently empty."
   else
     katz_deli.each{|person| puts katz_deli.index(person) + ". " + person}
+  end
 end
 
 def take_a_number(katz_deli,name)
@@ -19,7 +20,8 @@ def now_serving(katz_deli)
   else
     puts katz_deli[0]
     katz_deli.shift()
+  end
 end
 
-end
+
 
