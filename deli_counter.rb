@@ -17,4 +17,3 @@ def now_serving(katz_deli)
   puts katz_deli[0]
   katz_deli.shift()
 end
-  
