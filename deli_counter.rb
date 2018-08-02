@@ -1,5 +1,4 @@
 # Write your code here.
-katz_deli = []
 
 def line()
   if katz_deli.empty?
@@ -23,6 +22,5 @@ def now_serving(katz_deli)
   end
 end
 
-line([])
 
 
