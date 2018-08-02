@@ -18,6 +18,6 @@ def now_serving(katz_deli)
     "There is nobody waiting to be served!"
   else
     puts katz_deli[0]
-  katz_deli.shift()
+    katz_deli.shift()
 end
 
