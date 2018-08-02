@@ -2,4 +2,5 @@
 katz_deli = []
 
 def method()
-  if katz_deli.isEm
+  if katz_deli.empty?
+    
